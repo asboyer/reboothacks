@@ -911,7 +911,7 @@ document.getElementById('input').addEventListener('keypress', ({ keyCode, target
 });
 
 shape.init();
-shape.print('rebootCTF{kz}');
+shape.print('RebootHacks');
 
 // prevent zoom
 document.addEventListener('touchmove', e => e.preventDefault());
