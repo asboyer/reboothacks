@@ -18,9 +18,9 @@ def challenge():
 def surprise():
     return render_template("easter-egg.html")
 
-@app.route("/projects")
+@app.route("/winners")
 def projects():
-    return render_template("projects.html")
+    return render_template("winners.html")
 
 @app.route("/robots.txt")
 def se1():
